@@ -23,6 +23,12 @@ a:hover {
   z-index: 100000;
   background: #fff url(img/pageload-spinner.gif) no-repeat center center;
 }
+
+@font-face{
+  font-family: Arial, Helvetica, sans-serif;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+}
+
 .bloc {
   width: 100%;
   clear: both;
@@ -345,6 +351,12 @@ a:hover {
     margin: 10px auto 0;
   }
 }
+
+.site-navigation li a{
+  color: black !important;
+}
+
+
 .nav > li > .dropdown a {
   background: 0 0 !important;
   display: block;
@@ -557,7 +569,7 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: white !important;
+  color: white ;
 }
 .container {
   max-width: 1000px;
