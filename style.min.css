@@ -11,6 +11,7 @@ button {
   transition: all 0.3s ease-in-out;
   outline: 0 !important;
 }
+
 a:hover {
   text-decoration: none;
   cursor: pointer;
@@ -29,6 +30,31 @@ a:hover {
   src: local("Pacifico Regular"), local("Pacifico-Regular"),
     url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
       format("woff2");
+}
+
+.header-text {
+  color: rgb(63, 63, 63);
+  font-size: 34px !important;
+  font-weight: 500;
+}
+
+.paragraph {
+  color: rgb(46, 40, 40);
+  font-size: 16px !important;
+  font-style: italic;
+}
+
+.span-text {
+  color: black;
+  font-weight: bolder;
+}
+
+.span-text2 {
+  color: rgb(63, 63, 63);
+}
+
+li {
+  padding: 5px;
 }
 
 .bloc {
@@ -570,7 +596,10 @@ label,
 p {
   font-family: helvetica;
   font-weight: 400;
-  color: white;
+  color: black;
+}
+a {
+  color: white !important;
 }
 .container {
   max-width: 1000px;
@@ -612,6 +641,7 @@ p {
 .social {
   max-width: 400px;
   margin: auto auto auto auto;
+  padding-bottom: 20px;
 }
 h2 {
   font-size: 22px;
@@ -674,7 +704,7 @@ h4 {
   background-color: #f3976c;
 }
 .tc-white {
-  color: #364577 !important;
+  color: white !important;
 }
 .btn-atomic-tangerine {
   background: #f3976c;
