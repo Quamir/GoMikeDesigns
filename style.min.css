@@ -342,8 +342,8 @@ li {
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
-    top: 50%;
-    right: 20px;
+    top: 40%;
+    right: 136px;
     transform: translate(0, -50%);
     -webkit-transform: translateY(-50%);
   }
@@ -377,6 +377,10 @@ li {
   .nav-center.mini-nav .navbar-toggle {
     float: none;
     margin: 10px auto 0;
+  }
+
+  .navbar-toggle {
+    display: none;
   }
 }
 
@@ -711,7 +715,7 @@ h4 {
   color: #fff !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #813917 !important;
   color: #fff !important;
 }
 .ltc-white {
@@ -721,7 +725,7 @@ h4 {
   color: #ccc !important;
 }
 .ltc-atomic-tangerine {
-  color: #f3976c !important;
+  color: #813917 !important;
 }
 .ltc-atomic-tangerine:hover {
   color: #c27956 !important;
